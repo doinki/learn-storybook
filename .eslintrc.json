@@ -12,6 +12,10 @@
   ],
   "overrides": [
     {
+      "extends": "plugin:storybook/recommended",
+      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"]
+    },
+    {
       "files": ["*.js"],
       "rules": {
         "@typescript-eslint/no-unsafe-assignment": "off",
