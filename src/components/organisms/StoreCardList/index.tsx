@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { ElementType, FC } from 'react';
 import { Fragment, memo } from 'react';
 
@@ -69,7 +70,11 @@ const StoreCardList: FC<StoreCardListProps> = ({
     <Component {...(!isFragment && props)}>
       {items.map((item) => (
         <li key={item.id}>
-          <StoreCard {...item} />
+          <Link href={`/stores/${item.id}`}>
+            <a>
+              <StoreCard {...item} />
+            </a>
+          </Link>
         </li>
       ))}
     </Component>
