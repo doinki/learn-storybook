@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: aliceblue;
+@layer base {
+  body {
+    @apply bg-sky-50;
+    &.dark {
+      @apply bg-neutral-700;
+    }
+  }
 }
 
 #__portal {
