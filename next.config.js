@@ -8,9 +8,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const nextConfig = {
   compiler: { removeConsole: process.env.NODE_ENV !== 'development' },
   eslint: { dirs: ['src'], ignoreDuringBuilds: true },
-  images: {
-    domains: ['via.placeholder.com'],
-  },
+  images: { domains: ['via.placeholder.com'] },
   poweredByHeader: false,
   reactStrictMode: true,
   swcMinify: true,
