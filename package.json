@@ -20,6 +20,9 @@
     "@storybook/manager-webpack5": "^6.4.22",
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.11",
+    "@storybook/testing-react": "^1.2.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
     "@types/node": "^16.11.32",
     "@types/react-dom": "^18.0.3",
     "@types/tailwindcss": "^3.0.10",
@@ -43,6 +46,8 @@
     "eslint-plugin-trim": "^0.1.1",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "husky": "^7.0.4",
+    "jest": "^28.0.3",
+    "jest-environment-jsdom": "^28.0.2",
     "lint-staged": "^12.4.1",
     "postcss": "^8.4.13",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -67,7 +72,8 @@
     "lint": "next lint",
     "prepare": "husky install",
     "start": "next start",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "test": "jest --watch"
   },
   "sideEffects": false
 }

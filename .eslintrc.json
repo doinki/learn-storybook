@@ -16,6 +16,13 @@
       "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"]
     },
     {
+      "rules": {
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-unsafe-call": "off"
+      },
+      "files": ["*.test.ts?(x)"]
+    },
+    {
       "files": ["*.js"],
       "rules": {
         "@typescript-eslint/no-unsafe-assignment": "off",
@@ -34,6 +41,7 @@
   ],
   "rules": {
     "@typescript-eslint/consistent-type-imports": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "import/prefer-default-export": "off",
     "jsx-a11y/alt-text": ["error", { "img": ["Image"] }],
     "jsx-a11y/anchor-is-valid": [

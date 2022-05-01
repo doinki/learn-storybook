@@ -22,7 +22,12 @@ const Skeleton: FC<SkeletonProps> = ({ className, variant = 'text' }) => {
     default:
   }
 
-  return <span className={clsx('block bg-gray-200', rounded, className)} />;
+  return (
+    <span
+      className={clsx('block bg-gray-200 dark:bg-gray-500', rounded, className)}
+      data-testid="skeleton"
+    />
+  );
 };
 
 export default Skeleton;

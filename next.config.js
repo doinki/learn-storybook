@@ -6,7 +6,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  compiler: { removeConsole: process.env.NODE_ENV !== 'development' },
+  compiler: {
+    reactRemoveProperties: true,
+    removeConsole: process.env.NODE_ENV !== 'development',
+  },
   eslint: { dirs: ['src'], ignoreDuringBuilds: true },
   images: { domains: ['via.placeholder.com'] },
   poweredByHeader: false,
