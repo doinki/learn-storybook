@@ -14,7 +14,6 @@ const nextConfig = {
   images: { domains: ['via.placeholder.com'] },
   poweredByHeader: false,
   reactStrictMode: true,
-  swcMinify: true,
 };
 
 module.exports = withBundleAnalyzer(nextConfig);
