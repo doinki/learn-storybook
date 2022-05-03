@@ -6,10 +6,6 @@ import { memo } from 'react';
 import { Skeleton } from '@/atoms';
 import { StoreStatus } from '@/constants';
 
-/**
- * @property {boolean} status
- * @param {boolean} status
- */
 interface StoreCardProps {
   description?: string;
   loading?: boolean;
