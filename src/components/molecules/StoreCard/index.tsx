@@ -51,7 +51,7 @@ const StoreCard: FC<StoreCardProps> = (props) => {
   );
 
   return (
-    <article className="flex h-[120px] bg-white">
+    <article className="flex h-[120px] bg-white dark:bg-neutral-700">
       <section className="h-[120]px relative w-[120px]">
         {loading ? (
           <Skeleton className="h-[120px] w-[120px]" variant="rectangle" />
