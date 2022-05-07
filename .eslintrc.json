@@ -19,6 +19,7 @@
       "extends": [
         "plugin:jest-dom/recommended",
         "plugin:jest/recommended",
+        "plugin:jest/style",
         "plugin:testing-library/react"
       ],
       "files": [
