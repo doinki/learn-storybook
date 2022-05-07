@@ -3,20 +3,17 @@
 exports[`atoms/Skeleton Circle snapshot 1`] = `
 <span
   class="block bg-gray-200 dark:bg-gray-500 rounded-full w-[120px] h-[120px]"
-  data-testid="skeleton"
 />
 `;
 
 exports[`atoms/Skeleton Default snapshot 1`] = `
 <span
-  class="block bg-gray-200 dark:bg-gray-500 rounded-md p-1 bg-clip-content w-[240px] h-[24px]"
-  data-testid="skeleton"
+  class="block bg-gray-200 dark:bg-gray-500 p-1 rounded-md bg-clip-content w-[240px] h-[24px]"
 />
 `;
 
 exports[`atoms/Skeleton Rectangle snapshot 1`] = `
 <span
   class="block bg-gray-200 dark:bg-gray-500 w-[120px] h-[120px]"
-  data-testid="skeleton"
 />
 `;
