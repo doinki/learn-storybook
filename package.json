@@ -75,7 +75,8 @@
     "prepare": "husky install",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "test": "jest --watch"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "sideEffects": false
 }
