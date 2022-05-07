@@ -18,11 +18,11 @@ describe('atoms/Skeleton', () => {
   });
   test('Support dark mode', () => {
     render(<Skeleton />);
-    expect(screen.getByText('', { selector: 'span' })).toHaveClass(
-      'dark:bg-gray-500'
+    expect(screen.getByText('', { selector: 'span' }).className).toMatch(
+      'dark:bg'
     );
   });
-  test('Default has color only content area', () => {
+  test('Default should have color only content area', () => {
     render(<Default />);
     expect(screen.getByText('', { selector: 'span' })).toHaveClass(
       'bg-clip-content',
@@ -30,24 +30,16 @@ describe('atoms/Skeleton', () => {
       'rounded-md'
     );
   });
-  test('Circle have rounded-full classname', () => {
+  test('Circle should have rounded-full classname', () => {
     render(<Circle />);
     expect(screen.getByText('', { selector: 'span' })).toHaveClass(
       'rounded-full'
     );
   });
-
-  // snapshots
-  test('Default snapshot', () => {
-    render(<Default />);
-    expect(screen.getByText('', { selector: 'span' })).toMatchSnapshot();
-  });
-  test('Circle snapshot', () => {
-    render(<Circle />);
-    expect(screen.getByText('', { selector: 'span' })).toMatchSnapshot();
-  });
-  test('Rectangle snapshot', () => {
+  test('Rectangle should be a right angle', () => {
     render(<Rectangle />);
-    expect(screen.getByText('', { selector: 'span' })).toMatchSnapshot();
+    expect(screen.getByText('', { selector: 'span' }).className).not.toMatch(
+      'rounded'
+    );
   });
 });

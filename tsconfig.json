@@ -24,7 +24,8 @@
       "@/molecules/*": ["src/components/molecules/*"],
       "@/organisms": ["src/components/organisms/index.ts"],
       "@/organisms/*": ["src/components/organisms/*"],
-      "@/styles/global.css": ["src/styles/global.css"],
+      "@/styles": ["src/styles/index.ts"],
+      "@/styles/*": ["src/styles/*"],
       "@/templates": ["src/components/templates/index.ts"],
       "@/templates/*": ["src/components/templates/*"],
       "@/types": ["src/types/index.ts"],
@@ -38,5 +39,5 @@
     "target": "ES5"
   },
   "exclude": [],
-  "include": ["next-env.d.ts", "src/**/*"]
+  "include": ["next-env.d.ts", "src/**/*", "storybook.test.ts"]
 }
