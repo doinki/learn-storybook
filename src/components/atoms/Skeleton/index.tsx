@@ -3,20 +3,22 @@ import type { FC } from 'react';
 
 interface SkeletonProps {
   className?: string;
-  /** @default 'text' */
+  /**
+   * @default 'text'
+   */
   variant?: 'text' | 'circular' | 'rectangle';
 }
 
 // TODO: animation
 const Skeleton: FC<SkeletonProps> = ({ className, variant = 'text' }) => {
-  let rounded;
+  let tw;
 
   switch (variant) {
     case 'text':
-      rounded = 'rounded-md p-1 bg-clip-content';
+      tw = 'p-1 rounded-md bg-clip-content';
       break;
     case 'circular':
-      rounded = 'rounded-full';
+      tw = 'rounded-full';
       break;
     case 'rectangle':
     default:
@@ -24,8 +26,7 @@ const Skeleton: FC<SkeletonProps> = ({ className, variant = 'text' }) => {
 
   return (
     <span
-      className={clsx('block bg-gray-200 dark:bg-gray-500', rounded, className)}
-      data-testid="skeleton"
+      className={clsx('block bg-gray-200 dark:bg-gray-500', tw, className)}
     />
   );
 };
