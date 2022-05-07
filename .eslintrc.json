@@ -13,14 +13,17 @@
   "overrides": [
     {
       "extends": "plugin:storybook/recommended",
-      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"]
+      "files": ["*.stories.@(j|t)s?(x)"]
     },
     {
-      "rules": {
-        "@typescript-eslint/no-unsafe-assignment": "off",
-        "@typescript-eslint/no-unsafe-call": "off"
-      },
-      "files": ["*.test.ts?(x)"]
+      "extends": [
+        "plugin:jest-dom/recommended",
+        "plugin:testing-library/react"
+      ],
+      "files": [
+        "**/__tests__/**/*.@(j|t)s?(x)",
+        "**/?(*.)+(spec|test).@(j|t)s?(x)"
+      ]
     },
     {
       "files": ["*.js"],
