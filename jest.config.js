@@ -6,8 +6,14 @@ const createJestConfig = nextJest({ dir: '.' });
  * @type {import('@jest/types').Config.InitialOptions}
  */
 const customJestConfig = {
-  collectCoverageFrom: ['src/**/*.@(j|t)s?(x)'],
-  coveragePathIgnorePatterns: ['src/types'],
+  collectCoverageFrom: [
+    'src/**/*.@(j|t)s?(x)',
+    '!src/**/*.stories.@(j|t)s?(x)',
+  ],
+  coveragePathIgnorePatterns: [
+    '<rootDir>/node_modules/',
+    '<rootDir>/src\\/types/',
+  ],
   moduleNameMapper: {
     '^@/atoms(.*)': '<rootDir>/src/components/atoms$1',
     '^@/constants(.*)': '<rootDir>/src/constants$1',

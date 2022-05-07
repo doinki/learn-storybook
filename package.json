@@ -77,7 +77,7 @@
     "lint": "next lint",
     "prepare": "husky install",
     "start": "next start",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 -s public",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
