@@ -7,7 +7,6 @@ module.exports = {
       options: { postcssLoaderOptions: { implementation: require('postcss') } },
     },
     '@storybook/addon-essentials',
-    '@storybook/addon-interactions',
     '@storybook/addon-links',
     'storybook-dark-mode',
   ],
