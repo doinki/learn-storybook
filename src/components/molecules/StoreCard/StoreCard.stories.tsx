@@ -5,27 +5,16 @@ import type { Store } from '@/types';
 import StoreCard from '.';
 
 export default {
-  argTypes: {
-    numberOfReviews: {
-      defaultValue: {
-        summary: 0,
-      },
-    },
-    status: {
-      defaultValue: {
-        summary: 'OPEN',
-      },
-    },
-    tags: {
-      defaultValue: {
-        summary: '[]',
-      },
-    },
-  },
   component: StoreCard,
-  decorators: [(story) => <div className="max-w-screen-sm">{story()}</div>],
+  decorators: [
+    (Story) => (
+      <div className="max-w-screen-sm">
+        <Story />
+      </div>
+    ),
+  ],
   excludeStories: /^mocked/,
-  title: 'StoreCard',
+  title: 'molecules/StoreCard',
 } as ComponentMeta<typeof StoreCard>;
 
 export const mockedStore: Store = {
@@ -33,8 +22,8 @@ export const mockedStore: Store = {
   id: 1,
   marketName: 'lorem ipsum',
   name: 'lorem ipsum',
-  numberOfReviews: 0,
   rating: 5,
+  reviewCount: 0,
   src: 'https://via.placeholder.com/120',
   status: 'OPEN',
   tags: ['lorem', 'ipsum'],
@@ -55,6 +44,5 @@ Closed.args = {
 
 export const Loading = Template.bind({});
 Loading.args = {
-  ...mockedStore,
   loading: true,
 };

@@ -4,7 +4,7 @@ import Skeleton from '.';
 
 export default {
   component: Skeleton,
-  title: 'Skeleton',
+  title: 'atoms/Skeleton',
 } as ComponentMeta<typeof Skeleton>;
 
 const Template: ComponentStory<typeof Skeleton> = (args) => (

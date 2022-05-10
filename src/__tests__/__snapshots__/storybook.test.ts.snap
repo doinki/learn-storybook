@@ -1,24 +1,260 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Skeleton Circle 1`] = `
+exports[`Storyshots atoms/Skeleton Circle 1`] = `
 <span
   className="block bg-gray-200 dark:bg-gray-500 rounded-full w-[120px] h-[120px]"
 />
 `;
 
-exports[`Storyshots Skeleton Default 1`] = `
+exports[`Storyshots atoms/Skeleton Default 1`] = `
 <span
   className="block bg-gray-200 dark:bg-gray-500 p-1 rounded-md bg-clip-content w-[240px] h-[24px]"
 />
 `;
 
-exports[`Storyshots Skeleton Rectangle 1`] = `
+exports[`Storyshots atoms/Skeleton Rectangle 1`] = `
 <span
   className="block bg-gray-200 dark:bg-gray-500 w-[120px] h-[120px]"
 />
 `;
 
-exports[`Storyshots StoreCard Closed 1`] = `
+exports[`Storyshots icons/Logo Custom Size 1`] = `
+<span
+  style={
+    Object {
+      "background": "none",
+      "border": 0,
+      "boxSizing": "border-box",
+      "display": "inline-block",
+      "height": "initial",
+      "margin": 0,
+      "maxWidth": "100%",
+      "opacity": 1,
+      "overflow": "hidden",
+      "padding": 0,
+      "position": "relative",
+      "width": "initial",
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "boxSizing": "border-box",
+        "display": "block",
+        "height": "initial",
+        "margin": 0,
+        "maxWidth": "100%",
+        "opacity": 1,
+        "padding": 0,
+        "width": "initial",
+      }
+    }
+  >
+    <img
+      alt=""
+      aria-hidden={true}
+      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27128%27%20height=%27128%27/%3e"
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "padding": 0,
+          "width": "initial",
+        }
+      }
+    />
+  </span>
+  <img
+    alt="Logo"
+    data-nimg="intrinsic"
+    decoding="async"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    style={
+      Object {
+        "border": "none",
+        "bottom": 0,
+        "boxSizing": "border-box",
+        "display": "block",
+        "height": 0,
+        "left": 0,
+        "margin": "auto",
+        "maxHeight": "100%",
+        "maxWidth": "100%",
+        "minHeight": "100%",
+        "minWidth": "100%",
+        "objectFit": undefined,
+        "objectPosition": undefined,
+        "padding": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 0,
+      }
+    }
+  />
+  <noscript>
+    <img
+      alt="Logo"
+      data-nimg="intrinsic"
+      decoding="async"
+      loading="lazy"
+      src="/logo.png"
+      style={
+        Object {
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": undefined,
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+  </noscript>
+</span>
+`;
+
+exports[`Storyshots icons/Logo Default 1`] = `
+<span
+  style={
+    Object {
+      "background": "none",
+      "border": 0,
+      "boxSizing": "border-box",
+      "display": "inline-block",
+      "height": "initial",
+      "margin": 0,
+      "maxWidth": "100%",
+      "opacity": 1,
+      "overflow": "hidden",
+      "padding": 0,
+      "position": "relative",
+      "width": "initial",
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "boxSizing": "border-box",
+        "display": "block",
+        "height": "initial",
+        "margin": 0,
+        "maxWidth": "100%",
+        "opacity": 1,
+        "padding": 0,
+        "width": "initial",
+      }
+    }
+  >
+    <img
+      alt=""
+      aria-hidden={true}
+      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2764%27%20height=%2764%27/%3e"
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "padding": 0,
+          "width": "initial",
+        }
+      }
+    />
+  </span>
+  <img
+    alt="Logo"
+    data-nimg="intrinsic"
+    decoding="async"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    style={
+      Object {
+        "border": "none",
+        "bottom": 0,
+        "boxSizing": "border-box",
+        "display": "block",
+        "height": 0,
+        "left": 0,
+        "margin": "auto",
+        "maxHeight": "100%",
+        "maxWidth": "100%",
+        "minHeight": "100%",
+        "minWidth": "100%",
+        "objectFit": undefined,
+        "objectPosition": undefined,
+        "padding": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 0,
+      }
+    }
+  />
+  <noscript>
+    <img
+      alt="Logo"
+      data-nimg="intrinsic"
+      decoding="async"
+      loading="lazy"
+      src="/logo.png"
+      style={
+        Object {
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": undefined,
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+  </noscript>
+</span>
+`;
+
+exports[`Storyshots molecules/StoreCard Closed 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -177,7 +413,7 @@ exports[`Storyshots StoreCard Closed 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCard Default 1`] = `
+exports[`Storyshots molecules/StoreCard Default 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -331,7 +567,7 @@ exports[`Storyshots StoreCard Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCard Loading 1`] = `
+exports[`Storyshots molecules/StoreCard Loading 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -385,7 +621,7 @@ exports[`Storyshots StoreCard Loading 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCardList Default 1`] = `
+exports[`Storyshots organisms/StoreCardList Default 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -1944,7 +2180,7 @@ exports[`Storyshots StoreCardList Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCardList Divide Y 1`] = `
+exports[`Storyshots organisms/StoreCardList Divide Y 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -3505,7 +3741,7 @@ exports[`Storyshots StoreCardList Divide Y 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCardList Empty 1`] = `
+exports[`Storyshots organisms/StoreCardList Empty 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -3519,7 +3755,7 @@ exports[`Storyshots StoreCardList Empty 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCardList Error 1`] = `
+exports[`Storyshots organisms/StoreCardList Error 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -3533,7 +3769,7 @@ exports[`Storyshots StoreCardList Error 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCardList Loading 1`] = `
+exports[`Storyshots organisms/StoreCardList Loading 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -3691,7 +3927,7 @@ exports[`Storyshots StoreCardList Loading 1`] = `
 </div>
 `;
 
-exports[`Storyshots StoreCardList With Fragment 1`] = `
+exports[`Storyshots organisms/StoreCardList With Fragment 1`] = `
 <div
   className="max-w-screen-sm"
 >
@@ -5250,240 +5486,4 @@ exports[`Storyshots StoreCardList With Fragment 1`] = `
     </li>
   </div>
 </div>
-`;
-
-exports[`Storyshots icons/Logo Custom Size 1`] = `
-<span
-  style={
-    Object {
-      "background": "none",
-      "border": 0,
-      "boxSizing": "border-box",
-      "display": "inline-block",
-      "height": "initial",
-      "margin": 0,
-      "maxWidth": "100%",
-      "opacity": 1,
-      "overflow": "hidden",
-      "padding": 0,
-      "position": "relative",
-      "width": "initial",
-    }
-  }
->
-  <span
-    style={
-      Object {
-        "background": "none",
-        "border": 0,
-        "boxSizing": "border-box",
-        "display": "block",
-        "height": "initial",
-        "margin": 0,
-        "maxWidth": "100%",
-        "opacity": 1,
-        "padding": 0,
-        "width": "initial",
-      }
-    }
-  >
-    <img
-      alt=""
-      aria-hidden={true}
-      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27128%27%20height=%27128%27/%3e"
-      style={
-        Object {
-          "background": "none",
-          "border": 0,
-          "display": "block",
-          "height": "initial",
-          "margin": 0,
-          "maxWidth": "100%",
-          "opacity": 1,
-          "padding": 0,
-          "width": "initial",
-        }
-      }
-    />
-  </span>
-  <img
-    alt="Logo"
-    data-nimg="intrinsic"
-    decoding="async"
-    onError={[Function]}
-    onLoad={[Function]}
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-    style={
-      Object {
-        "border": "none",
-        "bottom": 0,
-        "boxSizing": "border-box",
-        "display": "block",
-        "height": 0,
-        "left": 0,
-        "margin": "auto",
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minHeight": "100%",
-        "minWidth": "100%",
-        "objectFit": undefined,
-        "objectPosition": undefined,
-        "padding": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 0,
-        "width": 0,
-      }
-    }
-  />
-  <noscript>
-    <img
-      alt="Logo"
-      data-nimg="intrinsic"
-      decoding="async"
-      loading="lazy"
-      src="/logo.png"
-      style={
-        Object {
-          "border": "none",
-          "bottom": 0,
-          "boxSizing": "border-box",
-          "display": "block",
-          "height": 0,
-          "left": 0,
-          "margin": "auto",
-          "maxHeight": "100%",
-          "maxWidth": "100%",
-          "minHeight": "100%",
-          "minWidth": "100%",
-          "objectFit": undefined,
-          "objectPosition": undefined,
-          "padding": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-          "width": 0,
-        }
-      }
-    />
-  </noscript>
-</span>
-`;
-
-exports[`Storyshots icons/Logo Default 1`] = `
-<span
-  style={
-    Object {
-      "background": "none",
-      "border": 0,
-      "boxSizing": "border-box",
-      "display": "inline-block",
-      "height": "initial",
-      "margin": 0,
-      "maxWidth": "100%",
-      "opacity": 1,
-      "overflow": "hidden",
-      "padding": 0,
-      "position": "relative",
-      "width": "initial",
-    }
-  }
->
-  <span
-    style={
-      Object {
-        "background": "none",
-        "border": 0,
-        "boxSizing": "border-box",
-        "display": "block",
-        "height": "initial",
-        "margin": 0,
-        "maxWidth": "100%",
-        "opacity": 1,
-        "padding": 0,
-        "width": "initial",
-      }
-    }
-  >
-    <img
-      alt=""
-      aria-hidden={true}
-      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2764%27%20height=%2764%27/%3e"
-      style={
-        Object {
-          "background": "none",
-          "border": 0,
-          "display": "block",
-          "height": "initial",
-          "margin": 0,
-          "maxWidth": "100%",
-          "opacity": 1,
-          "padding": 0,
-          "width": "initial",
-        }
-      }
-    />
-  </span>
-  <img
-    alt="Logo"
-    data-nimg="intrinsic"
-    decoding="async"
-    onError={[Function]}
-    onLoad={[Function]}
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-    style={
-      Object {
-        "border": "none",
-        "bottom": 0,
-        "boxSizing": "border-box",
-        "display": "block",
-        "height": 0,
-        "left": 0,
-        "margin": "auto",
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minHeight": "100%",
-        "minWidth": "100%",
-        "objectFit": undefined,
-        "objectPosition": undefined,
-        "padding": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 0,
-        "width": 0,
-      }
-    }
-  />
-  <noscript>
-    <img
-      alt="Logo"
-      data-nimg="intrinsic"
-      decoding="async"
-      loading="lazy"
-      src="/logo.png"
-      style={
-        Object {
-          "border": "none",
-          "bottom": 0,
-          "boxSizing": "border-box",
-          "display": "block",
-          "height": 0,
-          "left": 0,
-          "margin": "auto",
-          "maxHeight": "100%",
-          "maxWidth": "100%",
-          "minHeight": "100%",
-          "minWidth": "100%",
-          "objectFit": undefined,
-          "objectPosition": undefined,
-          "padding": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-          "width": 0,
-        }
-      }
-    />
-  </noscript>
-</span>
 `;

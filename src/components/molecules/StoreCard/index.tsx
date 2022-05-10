@@ -5,20 +5,10 @@ import { memo } from 'react';
 
 import { Skeleton } from '@/atoms';
 import { StoreStatus } from '@/constants';
+import type { Store } from '@/types';
 
-interface StoreCardProps {
-  description?: string;
+export interface StoreCardProps extends Partial<Store> {
   loading?: boolean;
-  marketName?: string;
-  name?: string;
-  /** @default 0 */
-  numberOfReviews?: number;
-  rating?: number;
-  src?: string;
-  /** @default 'OPEN' */
-  status?: 'OPEN' | 'CLOSED';
-  /** @default [] */
-  tags?: string[];
 }
 
 // TODO: Chip
@@ -28,7 +18,7 @@ const StoreCard: FC<StoreCardProps> = (props) => {
     description,
     marketName,
     src,
-    numberOfReviews = 0,
+    reviewCount = 0,
     rating,
     name,
     tags = [],
@@ -86,7 +76,7 @@ const StoreCard: FC<StoreCardProps> = (props) => {
           ) : (
             <>
               <StarIcon className="h-4 w-4 text-yellow-400" />
-              {rating ? rating.toFixed(1) : '-'}({numberOfReviews})
+              {rating ? rating.toFixed(1) : '-'}({reviewCount})
             </>
           )}
         </footer>

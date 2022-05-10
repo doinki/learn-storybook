@@ -6,7 +6,7 @@ import StoreCard from '@/molecules/StoreCard';
 import type { Store } from '@/types';
 
 interface StoreCardListProps {
-  className?: HTMLElement['className'];
+  className?: string;
   /** @default 'ul' */
   component?: ElementType;
   /** @default false */

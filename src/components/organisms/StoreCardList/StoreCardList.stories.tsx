@@ -7,9 +7,15 @@ import StoreCardList from '.';
 
 export default {
   component: StoreCardList,
-  decorators: [(story) => <div className="max-w-screen-sm">{story()}</div>],
+  decorators: [
+    (Story) => (
+      <div className="max-w-screen-sm">
+        <Story />
+      </div>
+    ),
+  ],
   excludeStories: /^mocked/,
-  title: 'StoreCardList',
+  title: 'organisms/StoreCardList',
 } as ComponentMeta<typeof StoreCardList>;
 
 export const mockedStores = new Array(10)
@@ -31,7 +37,11 @@ WithFragment.args = {
   items: mockedStores,
 };
 WithFragment.decorators = [
-  (story) => <div className="list-none">{story()}</div>,
+  (Story) => (
+    <div className="list-none">
+      <Story />
+    </div>
+  ),
 ];
 
 export const DivideY = Template.bind({});

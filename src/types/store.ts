@@ -3,9 +3,12 @@ export interface Store {
   id: number;
   marketName: string;
   name: string;
-  numberOfReviews: number;
   rating: number;
+  /** @default 0 */
+  reviewCount: number;
   src: string;
+  /** @default 'OPEN' */
   status: 'OPEN' | 'CLOSED';
+  /** @default [] */
   tags: string[];
 }

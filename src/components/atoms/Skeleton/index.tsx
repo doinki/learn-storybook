@@ -3,9 +3,7 @@ import type { FC } from 'react';
 
 interface SkeletonProps {
   className?: string;
-  /**
-   * @default 'text'
-   */
+  /** @default 'text' */
   variant?: 'text' | 'circular' | 'rectangle';
 }
 
