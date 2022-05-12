@@ -67,12 +67,12 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "build": "next build",
-    "build-storybook": "build-storybook -s public",
+    "build-storybook": "build-storybook",
     "dev": "next dev",
     "lint": "next lint",
     "prepare": "husky install",
     "start": "next start",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },

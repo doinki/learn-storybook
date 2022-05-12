@@ -21,7 +21,7 @@ const customJestConfig = {
     '^@/organisms(.*)': '<rootDir>/src/components/organisms$1',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  testEnvironment: 'jest-environment-jsdom',
+  testEnvironment: 'jsdom',
 };
 
 module.exports = createJestConfig(customJestConfig);
