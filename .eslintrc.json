@@ -13,7 +13,13 @@
   "overrides": [
     {
       "extends": "plugin:storybook/recommended",
-      "files": ["*.stories.@(j|t)s?(x)"]
+      "files": ["*.stories.@(j|t)s?(x)"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          { "devDependencies": ["src/**/*.stories.@(j|t)s?(x)"] }
+        ]
+      }
     },
     {
       "extends": [
@@ -65,7 +71,7 @@
         "unnamedComponents": ["arrow-function"]
       }
     ],
-    "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-sort-props": [
       "error",
       { "callbacksLast": true, "reservedFirst": true, "shorthandLast": true }
