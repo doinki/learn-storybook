@@ -4,9 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-sky-50;
+    @apply bg-sky-50 text-neutral-900;
     &.dark {
-      @apply bg-neutral-600;
+      @apply bg-neutral-600 text-gray-100;
     }
   }
 }
