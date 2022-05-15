@@ -20,9 +20,10 @@
     "@storybook/react": "^6.5.0-beta.8",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
-    "@types/node": "^16.11.34",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/node": "^16.11.35",
     "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.3",
+    "@types/react-dom": "^18.0.4",
     "@types/tailwindcss": "^3.0.10",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -33,7 +34,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jest": "^26.2.2",
     "eslint-plugin-jest-dom": "^4.0.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -62,6 +63,7 @@
   },
   "private": true,
   "resolutions": {
+    "@types/node": "^16.0.0",
     "postcss": "^8.0.0"
   },
   "scripts": {
