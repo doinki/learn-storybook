@@ -11,6 +11,7 @@ module.exports = {
     },
     '@storybook/addon-essentials',
     '@storybook/addon-links',
+    'storybook-addon-next-router',
     'storybook-dark-mode',
   ],
   core: { builder: '@storybook/builder-webpack5' },
